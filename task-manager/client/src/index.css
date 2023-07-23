@@ -1,0 +1,304 @@
+body {
+  background-color: #e1d2ff;
+  font-family: 'Roboto', sans-serif;
+  color: #212529;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.app {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.default-view {
+  width: 1000px;
+}
+
+/* Auth */
+
+.auth {
+  padding: 40px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth h1 {
+  margin-bottom: 20px;
+}
+
+.auth .submit {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #212529;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.auth .switch {
+  cursor: pointer;
+  color: #7c2de4;
+}
+
+/* Progress Bar */
+
+.progress-bar {
+  display: flex;
+  margin-left: 20px;
+}
+
+.task-title {
+  margin-left: 10px;
+}
+
+/* Buttons */
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-container button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 10px;
+  border-radius: 12px;
+  background-color: transparent;
+}
+
+.edit {
+  color: #212529;
+  border: 1px solid #ff9a56;
+  cursor: pointer;
+}
+
+.edit:hover {
+  background-color: #ff9a56;
+  color: #fff;
+}
+
+.delete {
+  color: #212529;
+  border: 1px solid #dc3545;
+  cursor: pointer;
+}
+
+.delete:hover {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.add {
+  color: #212529;
+  border: 1px solid #ffa56e;
+  cursor: pointer;
+}
+
+.add:hover {
+  background-color: #ffa56e;
+  color: #fff;
+}
+
+.logout {
+  color: #212529;
+  border: 1px solid #8400ff;
+}
+
+.logout:hover {
+  background-color: #8400ff;
+  color: #fff;
+}
+
+.profile {
+  color: #212529;
+  border: 1px solid #4cbee8;
+  cursor: pointer;
+}
+
+.profile:hover {
+  background-color: #4cbee8;
+  color: #fff;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #64a2ff;
+  background-color: #82aaff;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #d1c2ff;
+}
+
+/* List Header */
+
+.list-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e1d2ff;
+}
+
+/* List Item */
+
+.list-container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.list-item {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-item .info-container {
+  display: flex;
+  align-items: center;
+}
+
+/* ProfileModal.js */
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+label {
+  font-size: 16px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input {
+  margin-left: 12px;
+  border-radius: 10px;
+  padding: 12px 16px;
+  border: 1px solid #e1d2ff;
+}
+
+/* icons */
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.profile-form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.profile-form div {
+  margin-bottom: 10px;
+}
+
+.profile-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.profile-form input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.error-text {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.flag-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px; /* Optional: Add some margin to separate the flag icon from the task title */
+}
+
+.modal select {
+  /* Styling for the "Completion" field */
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  appearance: none;
+  background-color: white;
+  color: #333;
+  font-size: 14px;
+}
+
+.modal select option {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.modal .submit-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #0056b3;
+}

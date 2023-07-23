@@ -1,0 +1,70 @@
+.profile-text {
+  color: red;
+}
+
+.profile-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* styles.css */
+
+/* Common styles for buttons */
+.button {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Styles for the "Profile" button */
+.profile-button {
+  background-color: #007bff;
+}
+
+/* Styles for the "Add New Task" button */
+.add-button {
+  background-color: #28a745;
+}
+
+/* Styles for the "Update" button */
+.update-button {
+  background-color: #007bff;
+}
+
+/* Styles for the "Clear" button */
+.clear-button {
+  background-color: #dc3545;
+}
+
